@@ -82,7 +82,7 @@ nav {
 }
 nav li {
   display: inline-block;
-  margin-right: 60px;
+  margin-right: 55px;
   transition: opacity .3s;
 }
 li:not(.active):hover {
