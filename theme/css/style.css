@@ -122,10 +122,14 @@ address {
   line-height: 20px;
   margin-top: 100px;
 }
+h3 {
+    font-size: 13px;
+}
 footer {
   font-family: 'Roihu';
   text-align: center;
   margin-top: 30px;
+  font-size: 8px;
 }
 footer span:nth-of-type(1) {
   padding-right: 30px;
