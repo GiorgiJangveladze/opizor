@@ -81,7 +81,7 @@ nav {
 }
 nav li {
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 60px;
   transition: opacity .3s;
 }
 li:not(.active):hover {
