@@ -25,7 +25,7 @@ ABOUT - dynamic
 2. section
 
 
-Contact - dynamic 
+CONTACT - static
 1. ltd name
 2. address
 3. country
@@ -33,11 +33,12 @@ Contact - dynamic
 5. main mail
 6. footer mail
 
-SEO
+SEO - static
 1. name
 2. description
 3. kaywords
 4. img
+წინასწარ არის 4 ველი (home, about, concept, contact)
 
 
 FRONT
