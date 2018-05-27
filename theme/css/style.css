@@ -1,0 +1,135 @@
+/*reset*/
+body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+address {
+  font-style: normal;
+}
+/*fonts*/
+@font-face {
+  font-family: 'RotisSansSerif';
+  src:  url('../fonts/RotisSansSerif-Light.woff2') format('woff2'),
+        url('../fonts/RotisSansSerif-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src:  url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+          url('../fonts/MyriadPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roihu';
+  src:  url('../fonts/Roihu.woff2') format('woff2'),
+        url('../fonts/Roihu.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-size: 14px;
+  font-family: 'RotisSansSerif';
+  margin: 0px;
+  margin-bottom: 16px;
+}
+h2 {
+  font-size: 9px;
+  font-family: 'Roihu';
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+  line-height: 20px;
+}
+body {
+  font-size: 12px;
+  font-family: 'Myriad Pro';
+  color: #999595;
+}
+header {
+  margin-top: 70px;
+}
+nav {
+  font-family: 'RotisSansSerif';
+  text-align: center;
+  margin-top: 60px;
+  color: #8a8989;
+  letter-spacing: 1px;
+}
+nav li {
+  display: inline-block;
+  margin-right: 100px;
+  transition: opacity .3s;
+}
+li:not(.active):hover {
+  opacity: 0.6;
+}
+li.active {
+  color: #131212;
+}
+nav li:nth-of-type(4) {
+  margin-right: 0px;
+}
+/*style*/
+.logo {
+  width: 165px;
+  margin: auto;
+}
+.home.container {
+  max-width: 643px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.opizari {
+  max-width: 826px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.opizari .column {
+  column-count: 3;
+  line-height: 20px;
+  text-align: justify;
+  column-gap: 30px;
+}
+/* .opizari article div {
+  width: 33.33%;
+  line-height: 20px;
+  text-align: justify;
+  column-gap: 30px;
+  display: inline-block;
+  vertical-align: bottom;
+} */
+.opizari-img {
+  margin-top: 75px;
+}
+address {
+  text-align: center;
+  line-height: 20px;
+  margin-top: 100px;
+}
+footer {
+  font-family: 'Roihu';
+  text-align: center;
+  margin-top: 30px;
+}
+footer span:nth-of-type(1) {
+  padding-right: 30px;
+}
+footer span:nth-of-type(2) {
+  padding-left: 30px;
+}
