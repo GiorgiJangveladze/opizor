@@ -32,35 +32,43 @@ address {
 @font-face {
   font-family: 'Myriad Pro';
   src:  url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
-          url('../fonts/MyriadPro-Regular.woff') format('woff');
+        url('../fonts/MyriadPro-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Roihu';
   src:  url('../fonts/Roihu.woff2') format('woff2'),
-        url('../fonts/Roihu.woff') format('woff');
+  url('../fonts/Roihu.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
-h1 {
-  font-size: 14px;
-  font-family: 'RotisSansSerif';
-  margin: 0px;
-  margin-bottom: 16px;
-}
-h2 {
-  font-size: 9px;
-  font-family: 'Roihu';
-  letter-spacing: 1px;
-  margin-bottom: 18px;
-  line-height: 20px;
 }
 body {
   font-size: 12px;
   font-family: 'Myriad Pro';
   color: #999595;
 }
+/* headings*/
+.concept h1, .about h1 {
+  font-size: 14px;
+  font-family: 'RotisSansSerif';
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.contact h1 {
+  text-align: center;
+  font-size: 13px;
+}
+.column-split h2 {
+  font-size: 9px;
+  font-family: 'Roihu';
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  margin-top: 0px;
+  height: 20px;
+}
+/*header*/
 header {
   margin-top: 70px;
 }
@@ -70,10 +78,11 @@ nav {
   margin-top: 60px;
   color: #8a8989;
   letter-spacing: 1px;
+  font-size: 13px;
 }
 nav li {
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 50px;
   transition: opacity .3s;
 }
 li:not(.active):hover {
@@ -90,7 +99,7 @@ nav li:nth-of-type(4) {
   width: 165px;
   margin: auto;
 }
-.home.container {
+.home .img-container {
   max-width: 643px;
   margin: 0 auto;
   margin-top: 60px;
@@ -100,32 +109,45 @@ nav li:nth-of-type(4) {
   margin: 0 auto;
   margin-top: 50px;
 }
-.opizari .column {
+.column {
   column-count: 3;
   line-height: 20px;
   text-align: justify;
   column-gap: 30px;
 }
-/* .opizari article div {
-  width: 33.33%;
-  line-height: 20px;
-  text-align: justify;
-  column-gap: 30px;
-  display: inline-block;
-  vertical-align: bottom;
+/* .column-split {
+width: 33.33%;
+display: inline-block;
+text-align: justify;
+padding-right: 30px;
+box-sizing: border-box;
+line-height: 20px;
+vertical-align: bottom;
 } */
+.column-split:nth-of-type(3) {
+  padding-top: 30px;
+}
 .opizari-img {
   margin-top: 75px;
+}
+.contact {
+  margin-top: 100px;
+}
+.contact span {
+  display: block;
+}
+span.phone {
+  margin-top: 45px;
 }
 address {
   text-align: center;
   line-height: 20px;
-  margin-top: 100px;
 }
 footer {
   font-family: 'Roihu';
   text-align: center;
   margin-top: 30px;
+  font-size: 10px;
 }
 footer span:nth-of-type(1) {
   padding-right: 30px;
