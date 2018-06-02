@@ -45,10 +45,17 @@ module.exports = {
 
 	loaders: [
   		{
-  			test: /\.js$/, 
-  			loader: "eslint-loader", 
-  			include: "./dev/"
-  		}
+            test: /\.js?$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/,
+            query: {
+                presets: ['es2015']
+            }
+  		},
+        {
+            test: /\.(eot|svg|ttf|woff|woff2)$/,
+            loader: 'file?name=public/fonts/[name].[ext]'
+        }
 	],
   	
 	eslint: {
