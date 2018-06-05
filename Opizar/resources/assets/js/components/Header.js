@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 class Header extends Component{
     constructor(props){
         super(props)
@@ -9,14 +9,14 @@ class Header extends Component{
         return(
             <header>
                 <div className="logo">
-                    <Link to="/en"><img src="svg/logo.svg" alt="opizari"/></Link>
+                    <NavLink to="/en" exact><img src="svg/logo.svg" alt="opizari"/></NavLink>
                 </div>
                 <nav>
                     <ul>
-                        <li><Link to="/en/closine">CLOISONNÉ ENAMEL</Link></li>
-                        <li><Link to="/en/about">OPIZARI</Link></li>
+                        <li><NavLink to="/en/closine" exact>CLOISONNÉ ENAMEL</NavLink></li>
+                        <li><NavLink to="/en/about" exact>OPIZARI</NavLink></li>
                         <li><a href="https://www.instagram.com/?hl=en" target="_blank">INSTAGRAM</a></li>
-                        <li><Link to="/en/contact">CONTACT</Link></li>
+                        <li><NavLink to="/en/contact" exact>CONTACT</NavLink></li>
                     </ul>
                 </nav>
             </header>
