@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import {Switch, Route, BrowserRouter} from 'react-router-dom';
+import {
+    Switch,
+    Route,
+    BrowserRouter,
+    Redirect
+} from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import {
     TransitionGroup,
@@ -29,12 +34,15 @@ export default class Site extends Component {
                             key = {location.key}
                             timeout={500}
                             classNames={'fade'}
+                            mountOnEnter={false}
+                            unmountOnExit={false}
                         >
                             <Switch location={location}>
-                                <Route path='/en' exact={true} component={Home}/>
-                                <Route path='/en/contact' exact={true} component={Contact}/>
-                                <Route path='/en/closine' exact={true} component={Closine}/>
-                                <Route path='/en/about' exact={true} component={About}/>
+                                <Route path='/:lang(en|fr|jp)' exact={true} component={Home}/>
+                                <Route path='/:lang(en|fr|jp)/contact' exact={true} component={Contact}/>
+                                <Route path='/:lang(en|fr|jp)/closine' exact={true} component={Closine}/>
+                                <Route path='/:lang(en|fr|jp)/about' exact={true} component={About}/>
+                                <Redirect path='*' to='/en'/>
                             </Switch>
                         </CSSTransition>
                     </TransitionGroup>
