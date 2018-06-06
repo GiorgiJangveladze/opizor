@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a566d868-f46a-47cd-b24a-eb20cdfa31ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Opizar/public/js/app.js" afterPath="$PROJECT_DIR$/Opizar/public/js/app.js" />
-      <change beforePath="$PROJECT_DIR$/Opizar/resources/assets/js/Site.js" afterPath="$PROJECT_DIR$/Opizar/resources/assets/js/Site.js" />
-      <change beforePath="$PROJECT_DIR$/Opizar/resources/assets/js/style/css/style.css" afterPath="$PROJECT_DIR$/Opizar/resources/assets/js/style/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/Opizar/routes/web.php" afterPath="$PROJECT_DIR$/Opizar/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,6 +25,16 @@
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#267#318#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Opizar/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,7 +136,6 @@
         <option value="$PROJECT_DIR$/Opizar/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/Opizar/package.json" />
         <option value="$PROJECT_DIR$/Opizar/public/adminTemplate/bower_components/raphael/webpack.config.js" />
-        <option value="$PROJECT_DIR$/Opizar/routes/web.php" />
         <option value="$PROJECT_DIR$/Opizar/resources/assets/js/components/Header.js" />
         <option value="$PROJECT_DIR$/Opizar/resources/assets/js/components/mainComponent/Main.js" />
         <option value="$PROJECT_DIR$/Opizar/resources/assets/js/components/aboutComponent/About.js" />
@@ -138,6 +144,7 @@
         <option value="$PROJECT_DIR$/Opizar/resources/assets/js/components/homeComponent/Home.js" />
         <option value="$PROJECT_DIR$/Opizar/resources/assets/js/style/css/style.css" />
         <option value="$PROJECT_DIR$/Opizar/resources/assets/js/Site.js" />
+        <option value="$PROJECT_DIR$/Opizar/routes/web.php" />
       </list>
     </option>
   </component>
@@ -375,6 +382,12 @@
             <path>
               <item name="opizor" type="b2602c69:ProjectViewProjectNode" />
               <item name="opizor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Opizar" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="opizor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opizor" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="theme" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -438,12 +451,12 @@
       <workItem from="1528132323790" duration="613000" />
       <workItem from="1528152329227" duration="4646000" />
       <workItem from="1528223207316" duration="7527000" />
-      <workItem from="1528303719591" duration="224000" />
+      <workItem from="1528303719591" duration="848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26458000" />
+    <option name="totallyTimeSpent" value="27082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -522,6 +535,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -565,6 +579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -757,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Opizar/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Opizar/resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -824,6 +832,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="165" column="14" lean-forward="false" selection-start-line="165" selection-start-column="14" selection-end-line="165" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opizar/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding />
         </state>
       </provider>

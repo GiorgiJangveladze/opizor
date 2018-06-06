@@ -12,7 +12,7 @@
 */
 Route::get('{reactRoutes}', function () {
     return view('welcome'); // your start view
-})->where('reactRoutes', '^((?!admin|api).)*');
+})->where('reactRoutes', '^((?!admin|api|login).)*');
 
 Auth::routes();
 
